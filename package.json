@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.194",
+    "@types/node": "^18",
+    "nuxt": "^3.4.3",
+    "nuxt-windicss": "^2.6.1"
+  },
+  "dependencies": {
+    "decimal.js": "^10.4.3",
+    "lodash": "^4.17.21",
+    "vue-json-pretty": "^2.2.4",
+    "vue-trend-chart": "^0.17.0"
+  }
+}
